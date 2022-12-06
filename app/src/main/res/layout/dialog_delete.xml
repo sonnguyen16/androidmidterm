@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="48dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_shape"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Are you sure?"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/dialog_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="YES"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/behind_card"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/dialog_no"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="CANCEL"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/behind_card"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

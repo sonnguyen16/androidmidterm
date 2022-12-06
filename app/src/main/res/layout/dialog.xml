@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="48dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_shape"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/type_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new furniture"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/dialog_img"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/dialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:hint="Name"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:background="@drawable/card_shape"/>
+    <EditText
+        android:id="@+id/dialog_detail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:hint="Detail"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:background="@drawable/card_shape"/>
+    <EditText
+        android:id="@+id/dialog_price"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:background="@drawable/card_shape"/>
+
+    <Button
+        android:id="@+id/dialog_add"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="add"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/behind_card"/>
+
+    <Button
+        android:id="@+id/dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CANCEL"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/white"
+        android:background="@drawable/behind_card"/>
+
+</LinearLayout>
