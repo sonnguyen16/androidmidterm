@@ -2,8 +2,8 @@
 Báo cáo giữa kỳ môn android đề tài phpmysql
 
 Quản lý cửa hàng nội thất với các chức năng thêm xóa sửa.
-HQTCSDL: MySQL
-Ngôn ngữ: Java, php
+<br>HQTCSDL: MySQL
+<br>Ngôn ngữ: Java, php
 
 
 ![image](https://user-images.githubusercontent.com/99135582/211457778-a5a6ef17-ada9-4fff-860c-096dded65693.png)   ![image](https://user-images.githubusercontent.com/99135582/211457829-4fe2cf06-969c-4ce5-a1f4-b983879a9e16.png)
